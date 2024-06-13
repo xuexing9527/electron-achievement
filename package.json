@@ -1,0 +1,15 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Create electron app",
+  "main": "main.js",
+  "repository": "https://github.com/xuexing9527/electron-app.git",
+  "author": "xue xing <xuexing9527@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.1"
+  }
+}
