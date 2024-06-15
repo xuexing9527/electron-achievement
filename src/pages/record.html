@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日常记录</title>
+</head>
+<body>
+    <div className="date" id="date"></div>
+    <a href="../../index.html">返回主页</div>
+    <div>打开记录：</div>
+    <div>操作记录：</div>
+    <div>文本编辑器，几种形式：Word 形式，Mardown 形式</div>
+
+    <!-- 记录每一个字的键入时间，用来分析时间的利用效率 -->
+    <!-- 记录是否后台了页面，类似于视频播放在最前的记录，这里要区分是创作性文档，还是需要查阅资料的一些记录，或者给一主动输入项：是否就是跑偏去了... -->
+</body>
+<script>
+    let timer = null
+    const setTime = () => document.getElementById("date").innerText = new Date()
+    setTimeout(setTime)
+    if (!timer) {
+        timer = setInterval(setTime, 1000)
+    }
+</script>
+</html>
