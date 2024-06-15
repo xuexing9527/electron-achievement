@@ -12,8 +12,10 @@ function createWindow () {
     }
   })
 
-  // and load the index.html of the app.
+//   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
+//   mainWindow.loadURL('https://www.baidu.com')
+//   mainWindow.loadURL('https://www.baidu.com')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
